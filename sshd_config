@@ -49,10 +49,6 @@ Banner /etc/issue.net
 PrintMotd no
 PrintLastLog yes
 
-# Настройки SFTP
-Subsystem sftp internal-sftp
-ForceCommand internal-sftp  # Только для пользователей SFTP
-
 # Настройки логирования
 SyslogFacility AUTH
 LogLevel VERBOSE
